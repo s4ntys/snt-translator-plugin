@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SNT-Translator</title>
+</head>
+<body>
+
+    <label for="inputText">Tvoj Text:</label>
+    <textarea id="inputText" rows="10" placeholder="Napiš sem čo potrebuješ preložiť"></textarea>
+
+    <div>
+        <label for="translateFrom">Preložiť z: </label>
+         <select id="translateFrom">
+            <option value="en">English</option>
+         </select>
+         <label for="translateFrom">Preložit do:</label>
+         <select id="translateTo">
+            <option value="sk">Slovak</option>
+         </select>
+    </div>
+
+    <button id="translateBtn">Preložit</button>
+    <button id="speakBtn">Povedať</button>
+    <div id="outputText" aria-readonly="true"></div>
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+* {
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgba(46, 44, 56, 0.808);
+    padding: 15px;
+    margin: 0;
+    color: #f7f7f7;
+    width: 350px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+    overflow-y: scroll;
+}
+
+button {
+    background-color: #615e5e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#outputText {
+    background-color: #3d3535;
+    min-height: 80px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 13px;
+    white-space: pre-wrap;
+}
